@@ -1,10 +1,10 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.0",
   "private": true,
   "name": "xl-utils",
   "description": "utils to bulid js web client side application",
-  "repository": "https://github.com/angular/angular-phonecat",
-  //"license": "MIT",
+  "repository": "git@github.com:huxiaolei/utils.git",
+  "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",
     "protractor": "~0.20.1",

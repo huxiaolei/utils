@@ -3,7 +3,7 @@
   "description": "utils to bulid js web client side application",
   "version": "0.0.0",
   "homepage": "",
-  //"license": "MIT",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "angular": "1.2.x",
