@@ -1,0 +1,24 @@
+<!doctype= html>
+<html lang="en" ng-app="myChartingApp" >
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular-resource/angular-resource.js"></script>
+  <script src="../bower_components/jqplot/jquery.jqplot.js"></script>
+  <script src="../bower_components/jqplot/plugins/jqplot.pieRenderer.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/controllers.js"></script>
+
+
+</head>
+<body ng-controller="DemoCtrl">
+    <div>Speed: <input type="text" ng-model="speed">
+          <button ng-click="updateSpeed()"> submit </button>
+    </div>
+  <div>{{testData1}}</div>
+  <div>{{speed}}</div>
+ <div ui-chart="someData" chart-options="myChartOpts" ></div>
+</body>
